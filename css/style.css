@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  height: 100px;
+  float: left;
+  width: 100%;
+  /* border: 1px solid black; */
+  background: rgb(105, 118, 136);
+}
+
+li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: white;
+  float: left;
+  text-decoration: none;
+  margin: 3%;
+}
+
+header img {
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+header button {
+  color: rgb(105, 118, 136);
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  height: 30px;
+  width: 10%;
+  text-transform: uppercase;
+  float: right;
+  margin: 2%;
+}
+
+.uno {
+  background: rgb(105, 118, 136);
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.uno p {
+  text-align: center;
+  padding: 0 20%;
+  margin: 0% 4%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.watch-video {
+  border: none;
+  color: white;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  margin: auto;
+  background: none;
+  font-weight: 300;
+}
+
+.dos h2 {
+  font-size: 4rem;
+  color: black;
+  font-weight: 300;
+}
+
+.dos p {
+  text-align: center;
+  padding: 0 20%;
+  margin: 0% 4%;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.uno,
+.dos,
+.tres,
+.cuatro {
+  height: 400px;
+  float: left;
+  width: 100%;
+  /* border: 1px solid navy; */
+}
+
+.izq,
+.derecha {
+  height: 400px;
+  float: left;
+  width: 50%;
+  /* border: 1px solid green; */
+}
+
+.tres {
+  background: rgb(220, 223, 226);
+}
+
+.cuadro {
+  height: 150px;
+  width: 50%;
+  background: rgb(105, 118, 136);
+  margin: 7% 20% 0 25%;
+  display: block;
+}
+
+.tres button {
+  font-weight: 300;
+  /* border: 1px solid black; */
+  border-radius: 2px;
+  font-size: 1rem;
+  height: 30px;
+  width: 20%;
+  text-transform: uppercase;
+  margin: auto;
+  display: block;
+  background: none;
+}
+
+.tres p {
+  padding: 0 30%;
+  text-align: center;
+  font-weight: 200;
+}
+
+.tres h3 {
+  font-size: 2rem;
+}
+
+.cuatro button {
+  font-weight: 300;
+  /* border: 1px solid black; */
+  border-radius: 2px;
+  font-size: 1rem;
+  height: 30px;
+  width: 20%;
+  text-transform: uppercase;
+  margin: auto;
+  display: block;
+  background: none;
+}
+
+.cuatro h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  padding-top: 5%;
+}
+
+.cuatro p {
+  padding: 0 30%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.socials i {
+  font-size: 3rem;
+  color: white;
+  margin: 2% 1%;
+}
+
+.socials {
+  width: 30%;
+  float: left;
+  margin: 10px;
+}
+
+.socials span {
+  display: block;
+  color: rgb(121, 147, 164);
+  font-size: 1.5rem;
+  margin: 3%;
+}
+
+.socials a {
+  color: white;
+  margin: 2%;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.address {
+  float: right;
+  width: 20%;
+}
+
+.address p,
+.address h4 {
+  color: white;
+}
+
+.address p {
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.address h4 {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.email {
+  font-weight: 400;
+}
+
+.abajo {
+  clear: both;
+  color: white;
+  font-weight: 300;
+  border-top: 1px solid white;
+  font-size: 1.3rem;
+  margin: 0 2%;
+}
+
+footer {
+  height: 250px;
+  float: left;
+  width: 100%;
+  /* border: 1px solid red; */
+  overflow: auto;
+  background: rgb(24, 31, 41);
+}
+
+/* media */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+  header button,
+  header img {
+    display: none;
+  }
+
+  .uno p {
+    display: none;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  .dos {
+    display: none;
+  }
+
+  .izq,
+  .derecha {
+    width: 100%;
+    height: auto;
+  }
+
+  .izq p,
+  .derecha p {
+    display: none;
+
+  }
+.tres{
+  height: 436px;
+}
+  .cuadro {
+    margin: 3% 20% 0 35%;
+    height: 100px;
+    width: 30%;
+  }
+
+  .cuatro {
+    height: 200px;
+  }
+  .cuatro p {
+    display: none;
+  }
+  .address p{
+    padding-right: 9%;
+  }
+  .address{
+    width: 24%;
+    display: none;
+  }
+  .abajo p{
+    font-size: 1rem;
+  }
+  .socials a {
+    display: none;
+  }
+  footer{
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .dos{
+    display: none;
+  }
+  .cuatro p{
+    display: none;
+  }
+  .cuatro{
+    height: 200px;
+  }
+  footer{
+    height: auto;
+  }
+  .address{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  footer{
+    height: auto;
+  }
+  .cuatro{
+    display: none;
+  }
+}
